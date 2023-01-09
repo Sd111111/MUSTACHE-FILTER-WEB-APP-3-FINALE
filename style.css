@@ -1,0 +1,29 @@
+h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+canvas{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 40px rgb(243, 207, 3);}
+    to{ box-shadow: 5px 5px 40px rgb(112, 29, 29);}
+}
+
+
+.heading{
+    font-size: 30px;
+    font-family: 'Yeon Sung', cursive;
+
+}
+
+.capture:hover{
+    border-radius: 10px;
+    color: rgb(57, 57, 143);
+}
+
